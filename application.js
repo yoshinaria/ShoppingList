@@ -11,13 +11,13 @@ $("#submitItem").click(function() {
         };
 
 
-        $("#itemList").append('<li class="items">' + newItem + '<i class=" fa fa-shopping-cart"></i></li>').slideDown;
+        $("#itemList").append('<li class="items">' + newItem + '<i class="fa fa-check"></i><i class=" fa fa-shopping-cart"></i></li>').slideDown;
         document.getElementById("newItem").value="";
 
 
 	$("li").click(function() {
-		$(this).children().css( "color", "#FF0099" );
-        $(this).css( "color", "#FF0099" );
+		$(this).children().css( "color", "#FF6347" );
+        $(this).css( "color", "#FF6347" );
         $(this).addClass("selected");
 	});
 
