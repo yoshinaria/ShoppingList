@@ -5,7 +5,7 @@ $("#submitItem").click(function() {
         var newItem = $("#newItem").val();
 
 
-		while (newItem=="") {
+		while (newItem==""){
             alert("Please enter name of the items");
             return false;
         };
@@ -19,7 +19,7 @@ $("#submitItem").click(function() {
 		$(this).children().css( "color", "#FF6347" );
         $(this).css( "color", "#FF6347" );
         $(this).addClass("selected");
-	});
+    });
 
 });
     $("#removeSelected").on("click", function () {
