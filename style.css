@@ -1,0 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+	background: url("background.png");
+	font-family: 'Arvo', serif;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 70px;
+	margin:0px 30px 30px 30px;
+	text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+li i {
+	float: right;
+	color: #d8d8d8;
+}
+
+#main {
+	width: 500px;
+	margin: 0 auto;	
+
+}
+
+#newItem {
+	width:75%;
+    padding:10px 20px;
+    border: 3px solid #F8F8F8;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#submitItem {
+	background-color: rgb(19, 139, 76);
+	color: white;
+	padding:13px;
+	border-radius: 4px;
+}
+
+#formWrapper {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 60px;
+
+}
+
+
+#clearButton, #removeSelected{
+	padding: 9px;
+	margin: 0 auto;
+	border: 3px solid #F8F8F8;
+	border-radius: 4px;
+	color: white;
+	width: 20%;
+	text-align: center;
+	display: inline;
+}
+
+#buttons {
+	padding: 20px;
+}
+
+#clearButton:hover, #removeItem:hover {
+	background-color:rgb(29, 162, 92);
+}
+
+li {
+	width: 90%;
+	color: grey;
+	background-color: white;
+	list-style: none;
+	border: 3px solid #F8F8F8;
+	padding: 10px;
+	margin: 10px;
+	text-align:left;
+	border-radius: 4px;
+
+}
+

@@ -1,0 +1,51 @@
+<!DOTYPE html>
+<html>
+	<head>
+	<title>Shopping List</title>	
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="application.js"></script>
+	</head>
+  
+
+
+
+  <body>
+
+  
+  <div id="main">
+   
+  	<i style="color:rgb(194, 243, 175)"class="fa fa-list-alt fa-5x"></i>
+
+  	<h1>Shopping List</h1>
+    
+    <div id="formWrapper">
+  	<form onsubmit="return false" id="itemForm">
+                <input  type="text" id="newItem" placeholder="Add items here">
+                <button type="submit" id="submitItem">Add Item</button>
+    </form>
+    </div>         
+            
+
+            <div id="lists">    
+                <ul id="itemList">
+                   
+                </ul>
+            </div>
+            
+
+
+            <div id="buttons">
+				<div id="removeSelected">Remove Selected</div>
+                <div id="clearButton">Clear All</div>
+            </div>
+            
+  	
+
+  </div><!--main-->
+    
+  </body>
+</html>
