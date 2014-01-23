@@ -139,6 +139,11 @@ footer, #main:after{
 }
 
 footer {
-	background: #666;
+	background: #d0d0d0;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	padding-top: 7px;
+	border-top: 1px solid #e0e0e0;
 }
 
